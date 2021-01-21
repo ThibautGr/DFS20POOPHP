@@ -1,16 +1,10 @@
-
+<?php
 include './classes/autoload.php';
 
 session_start();
 
 $characters = ['Warrior', 'Mage'];
-
-if (isset($_SESSION['fighting'])) {
-    $player1 = new $_SESSION['fighters'][0]($_SESSION['fighters'][0]);
-    $player2 = new $_SESSION['fighters'][1]($_SESSION['fighters'][1])
-}
 ?>
-
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -43,7 +37,7 @@ if (isset($_SESSION['fighting'])) {
                         <?php foreach ($characters as $character): ?>
                             <li>
                                 <input type="radio" name="player2" value="<?= $character ?>">
-                                <label for="<?= $characte ?>"><?= $character ?></label><br>
+                                <label for="<?= $character ?>"><?= $character ?></label><br>
                             </li>
                         <?php endforeach ?>
                     </div>
@@ -54,11 +48,16 @@ if (isset($_SESSION['fighting'])) {
             </form>
         </ul>
     </header>
+    <?php
+    if (isset($_SESSION['fighting']) ) :
+    $player1 = new $_SESSION['fighters'][0]($_SESSION['fighters'][0]);
+    $player2 = new $_SESSION['fighters'][1]($_SESSION['fighters'][1]);
+
+    ?>
     <main class="flex">
         <div class="fight">
-            <?php if (isset($_SESSION['fighting'])): ?>
                 <?php $i = 1 ?>
-                <?php while ($player1->getLifePoint() > 0 && $player2->getLifePoints() > 0): ?>
+                <?php while ($player1->getLifePoints() > 0 && $player2->getLifePoints() > 0): ?>
                     <div class="flex row">
                         <div class="count flex border">
                             <span>Tour</span>
