@@ -11,11 +11,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2c3f8525-d0a4-4975-970b-99bb1a4d2007" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/classes/Druid.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/classes/Mage.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/Mage.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/Warrior.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/Warrior.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/fightController.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/fightController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/fightReset.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/fightReset.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/character.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/character.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,7 +49,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1611234913385</updated>
-      <workItem from="1611234915297" duration="3075000" />
+      <workItem from="1611234915297" duration="6431000" />
     </task>
     <servers />
   </component>
@@ -67,5 +66,11 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="725" y="242" key="NewPhpClassDialog" timestamp="1611238189324">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="725" y="242" key="NewPhpClassDialog/0.0.1920.1040/-1920.8.1280.680@0.0.1920.1040" timestamp="1611238189324" />
   </component>
 </project>

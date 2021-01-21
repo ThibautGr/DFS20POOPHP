@@ -3,7 +3,7 @@ include './classes/autoload.php';
 
 session_start();
 
-$characters = ['Warrior', 'Mage'];
+$characters = ['Warrior', 'Mage','Druid'];
 ?>
 <!DOCTYPE html>
 <html lang="fr">

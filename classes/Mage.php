@@ -3,7 +3,6 @@
 class Mage extends Character 
 {
     private $shield = False;
-
     function __construct(string $name) {
         parent::__construct($name);
         $this->magicPoints *= 7;
